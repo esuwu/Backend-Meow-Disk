@@ -5,5 +5,5 @@ The building project was created by the famous architects  Kirill Illarionov and
 
 ## How to run:
 - sudo docker build -t meow-api -f Dockerfile .
-- docker run -p 8080:8080 --name meow meow-api
+- sudo docker run -p 8080:8080 --name meow meow-api
 ### Server works on :8080 port
