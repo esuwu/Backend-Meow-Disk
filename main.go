@@ -46,8 +46,8 @@ func main() {
 	api := initLevels()
 	router := InitRouter(api)
 
-	log.Println("http server started on 8081 port: ")
-	err := fasthttp.ListenAndServe(":8081", router.Handler)
+	log.Println("http server started on 8080 port: ")
+	err := fasthttp.ListenAndServe(":8088", router.Handler)
 	if err != nil {
 		log.Println(err)
 		return
